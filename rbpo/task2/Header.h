@@ -11,4 +11,4 @@ void ReadPersonHeight();
 string ReadPersonName();
 unsigned short ReadPersonAge();
 extern unsigned short h;
-extern string s_toOutPut;
+extern string s_a;
