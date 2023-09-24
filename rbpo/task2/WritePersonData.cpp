@@ -1,9 +1,9 @@
 #include "Header.h"
-string s_toOutPut = "";
+string s_a = "";
 void WritePersonData(const string& n, const string& h, const string& w, const unsigned short* a) {
-    cout << "èìÿ:" << n << endl;
-    cout << "ðîñò:" << h << endl;
-    cout << "âåñ:" << w << endl;
-    cout << "âîçðàñò:" << *a << endl;
-    cout << "ç/ï:" << s_toOutPut << endl;
+    cout << "Ã¨Ã¬Ã¿:" << n << endl;
+    cout << "Ã°Ã®Ã±Ã²:" << h << endl;
+    cout << "Ã¢Ã¥Ã±:" << w << endl;
+    cout << "Ã¢Ã®Ã§Ã°Ã Ã±Ã²:" << *a << endl;
+    cout << "Ã§/Ã¯:" << s_a << endl;
 }
