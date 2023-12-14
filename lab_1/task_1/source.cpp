@@ -64,7 +64,7 @@ string s_a = "";
         cout << "з/п:" << s_a << endl;
     }
 
-
+#ifndef DO_NOT_DEFINE_MAIN
     int main()
     {
 
@@ -77,3 +77,4 @@ string s_a = "";
         s_a = to_string(s);
         WritePersonData(n, to_string(h), to_string(w), &a);
     }
+#endif
