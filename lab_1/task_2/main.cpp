@@ -1,7 +1,7 @@
 ﻿
 
 #include "Header.h"
-
+#ifndef DO_NOT_DEFINE_MAIN
 int main()
 {
     
@@ -14,3 +14,4 @@ int main()
     s_a = to_string(s);
     WritePersonData(n, to_string(h), to_string(w), &a);
 }
+#endif
